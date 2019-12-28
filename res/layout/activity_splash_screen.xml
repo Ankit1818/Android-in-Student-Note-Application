@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".SplashScreenActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Notice Board"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/FacebookBlue"
+        android:textSize="35dp"
+        />
+
+    <ImageButton
+        android:id="@+id/adminAddnote"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="150dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:src="@mipmap/ic_not" />
+
+
+
+
+</LinearLayout>

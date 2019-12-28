@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    android:orientation="vertical"
+    tools:context=".AdminLoginActivity">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Update Student Detail"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:background="#fff"
+        android:elevation="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="12"
+                    android:background="@drawable/id"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+
+                    <EditText
+                        android:id="@+id/upstuid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ediitextfile"
+                        android:singleLine="true"
+                        android:enabled="false"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Student Id"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/FacebookBlue"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="12"
+                    android:background="@drawable/person"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/upstudname"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ediitextfile"
+                        android:singleLine="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Enter name"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+
+                android:background="@color/FacebookBlue"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="12"
+                    android:background="@drawable/roll_no"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/upeditstudRollno"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ediitextfile"
+                        android:singleLine="true"
+                        android:textColorHint="@color/FacebookBlue"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Roll No"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/FacebookBlue"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="12"
+                    android:background="@drawable/email"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/upstudemail"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ediitextfile"
+                        android:singleLine="true"
+                        android:textColorHint="@color/FacebookBlue"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Email Address"
+                        android:inputType="textEmailAddress" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/FacebookBlue"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="12"
+                    android:background="@drawable/lockk"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    app:passwordToggleEnabled="true"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:id="@+id/upstudpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ediitextfile"
+                        android:hint="Password Limit(4)"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColorHint="@color/FacebookBlue" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:background="@color/FacebookBlue"
+                android:layout_margin="10dp"/>
+
+
+
+            <Button
+                android:id="@+id/btnupstudDetail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@color/FacebookBlue"
+                android:text="Update"
+
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+<!--
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:src="@drawable/user" />-->
+
+</RelativeLayout>
